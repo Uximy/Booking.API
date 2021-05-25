@@ -1,0 +1,45 @@
+﻿* {
+    box-sizing: border-box;
+
+}
+
+body {
+}
+
+.commonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hotelsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+    .hotelsContainer .card {
+        width: 30%;
+        margin: 8px;
+    }
+
+        .hotelsContainer .card .buttonContainer {
+            width: 97%;
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 8px; 
+        }
+
+        .hotelsContainer .card .btn {
+            width: 30%;
+            margin: 0px;
+            padding: 7px;
+        }
+
+        .hotelsContainer .card .btn:hover {
+           color: yellow;
+        }
+
+.commonContainer h6 {
+    font-size: 36px;
+}

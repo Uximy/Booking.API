@@ -1,0 +1,7 @@
+﻿@model Booking.Dto.LoginRequest
+
+<form asp-controller="Auth" asp-action="Login" method="post">
+    <input type="text" name="email" value="@Model.Email">
+    <input type="password" name="password" value="@Model.Password">
+    <button type="submit">Login</button>
+</form>
